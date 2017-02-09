@@ -72,7 +72,7 @@
 
 @media (max-width: 480px) {
   .nav-wrapper{
-    width:99.99%;
+    width:99%;
     height: 80px;
     margin: auto;
   }
@@ -108,7 +108,7 @@
   }
     }
 
-@media (max-width:1024px) {
+@media (max-width:1024px) (min-width:481px) {
   .nav-wrapper{
     width:90%;
     margin: auto;

@@ -1,3 +1,6 @@
+
+/* .........................Header start.............................. */
+
 .nav-apos{
   width: 100%;
   height: 80px;
@@ -114,5 +117,111 @@
     width:90%;
     height: 80px;
     margin: auto;
+  }
 
 }
+
+/* ..........................Header end................................ */
+
+
+
+/* ..........................Banner Start ............................... */
+
+.home-banner{
+  float: left;
+  clear: both;
+  width: 100%;
+  height: auto;
+  background: #ff7f58; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #ff7f58 0%, #ff6334 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #ff7f58 0%,#ff6334 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #ff7f58 0%,#ff6334 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7f58', endColorstr='#ff6334',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.banner-wrapper{
+  width: 80%;
+  margin: auto;
+  height:auto;
+}
+
+.banner-head{
+  float: left;
+  font-size: 50px;
+  line-height: 75px;
+  font-family: georgia;
+  font-weight:200;
+  color: #fff;
+  padding-top: 100px;
+}
+
+.banner-content{
+  float: left;
+  font-size: 36px;
+  line-height: 1.5em;
+  font-family: raleway;
+  font-weight: lighter;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.call-to-action{
+  float:left;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.button-banner{
+  background-color:#ff6334;
+	text-indent:0;
+	border:1px solid #ffffff;
+	display:inline-block;
+	color:#ffffff;
+	font-family: raleway;
+	font-size:14px;
+	font-weight: normal;;
+	font-style:normal;
+	height:36px;
+	line-height:1.5em;
+	width:175px;
+	text-decoration:none;
+	text-align:center;
+  padding-top: 5px;
+}
+.banner-button:hover {
+	background-color:#ff6334;
+}
+.banner-button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+@media (max-width: 480px){
+  .banner-wrapper{
+    width: 90%;
+    margin: auto;
+    height:auto;
+  }
+  .banner-head{
+    font-size: 46px;
+    line-height: 1.5em;
+    padding-top: 40px;
+  }
+  .banner-content{
+    font-size: 30px;
+    line-height: 1.5em;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+  }
+}
+
+
+
+/* ..........................Banner End   ............................... */

@@ -9,6 +9,7 @@
 
 .nav-wrapper{
   width:80%;
+  height: 80px;
   margin: auto;
 }
 
@@ -70,7 +71,7 @@
   height: 80px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .nav-wrapper{
     width:99%;
     height: 80px;
@@ -108,9 +109,10 @@
   }
     }
 
-@media (max-width:1024px) (min-width:481px) {
+@media (max-width:1024px) (min-width:767px) {
   .nav-wrapper{
     width:90%;
+    height: 80px;
     margin: auto;
 
 }

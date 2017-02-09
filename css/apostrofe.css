@@ -72,17 +72,21 @@
 
 @media (max-width: 480px) {
   .nav-wrapper{
-    width:98%;
+    width:99%;
+    height: 80px;
     margin: auto;
   }
 
   .brandlogo{
+    float: left;
     width:70px;
     height: auto;
     padding-top: 15px;
   }
   .brandname{
     padding-top: 20px;
+    padding-bottom: 5px;
+    padding-right: 5px;
     font-size: 24px;
     line-height: 14px;
     color: #FF6334;
@@ -94,6 +98,10 @@
   }
   .brand-container{
     width: 200px;
+  }
+  .menu-container{
+    width: 100px;
+    height: 80px;
   }
   .menu-text{
     display: none;

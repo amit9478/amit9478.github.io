@@ -10,7 +10,9 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/nav-style.css" rel="stylesheet">
     <link href="css/apostrofe.css" rel="stylesheet">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,26 +22,30 @@
     <![endif]-->
   </head>
   <body>
-    <div class="nav-apos" id="nav-apos">
+    <header class="cd-header">
       <div class="nav-wrapper">
-        <div class="brand-container">
-          <div class="brandlogo">
-            <img src="assets/img/logo.svg" alt="apostrofe Logo">
-          </div>
-          <div class="brandname">apostrofe
-          </div>
-          <div class="brand-desciption">a User Experience Company
-          </div>
-        </div>
-        <div class="menu-container">
-          <div class="menu-icon">
-            <img src="assets/img/menu.svg" alt="apostrofe Menu">
-          </div>
-          <div class="menu-text">MENU
-          </div>
-        </div>
+      <div class="brandlogo"><a href="#0"><img src="assets/img/logo.svg" alt="Logo"></a></div>
+
+      <div class="brandname">apostrofe</div>
+      <div class="brand-desciption">a User Experience Company</div>
+
+
+      <a class="cd-primary-nav-trigger" href="#0">
+        <span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
+      </a> <!-- cd-primary-nav-trigger -->
       </div>
-    </div>
+    </header>
+
+    <nav>
+      <ul class="cd-primary-nav">
+
+        <li><a href="#0">Home</a></li>
+        <li><a href="#0">Our Work</a></li>
+        <li><a href="#0">Our Process</a></li>
+        <li><a href="#0">About Us</a></li>
+
+      </ul>
+    </nav>
 
     <div class="home-banner">
       <div class="banner-wrapper">
@@ -48,9 +54,8 @@
         <div class="banner-content">We believe that Designing experiences is fundamentally about people, their activities and the context of those activities.
         </div>
         <div class="call-to-action">
-            <a href=""><div class="button-banner">View Our Work</div></a>
-            <span/>
-            <a href=""><div class="button-banner">Know Us More</div></a>
+            <a href=""><div class="button-banner01">View Our Work</div></a>
+            <a href=""><div class="button-banner02">Know Us More</div></a>
         </div>
       </div>
     </div>
@@ -61,5 +66,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+    <script>
+    function changeclass() {
+
+    var NAME = document.getElementById(".nav-apos .menu-is-open")
+
+    NAME.className=".nav-apos"
+
+    }
+    </script>
+
   </body>
 </html>

@@ -105,6 +105,8 @@
 
 @media (max-width: 480px){
   .banner-wrapper{
+    position: relative;
+    top: 30px;
     width: 90%;
     margin: auto;
     height:auto;
@@ -124,7 +126,6 @@
 
   .call-to-action{
     margin-top: 0px;
-    padding-bottom: 20px;
     text-align: center;
   }
 
@@ -135,6 +136,7 @@
 
   .button-banner02{
     margin-left: : 0px;
+    margin-top: 20px;
     width: 140px;
   }
 }

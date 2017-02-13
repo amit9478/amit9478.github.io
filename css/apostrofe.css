@@ -142,5 +142,137 @@
 }
 
 
-
 /* ..........................Banner End   ............................... */
+
+/* ..........................Content Start   ............................... */
+
+h1{
+  font-size: 30px;
+  line-height: 1.5em;
+  font-family: georgia;
+  font-weight: normal;
+  color: #000;
+}
+
+p{
+  font-size: 18px;
+  line-height: 2em;
+  font-family: raleway;
+  font-weight: normal;
+  color: #363636;
+}
+
+.content-wrapper{
+  width: 80%;
+  margin: auto;
+  height: auto;
+}
+
+@media (max-width: 480px){
+    .content-wrapper{
+      position: relative;
+      width: 90%;
+      margin: auto;
+      height: auto;
+    }
+  }
+
+.new-product{
+  float: left;
+  margin-top: 60px;
+}
+
+.ic-new-prdct{
+  float: left;
+  clear: both;
+  width: 20%;
+  height: auto;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px){
+    .ic-new-prdct{
+      float: left;
+      clear: both;
+      width: 70%;
+      text-align: center;
+      height: auto;
+      padding-top: 20px;
+    }
+  }
+
+.content{
+    float: left;
+    width: 75%;
+    height: auto;
+    margin-left: 5%;
+    padding-top: 20px;
+  }
+
+  @media (max-width: 768px){
+      .content{
+        float: left;
+        clear: both;
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        padding-top: 20px;
+      }
+    }
+
+.btn_style{
+  float:right;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  background-color:#fff;
+  text-indent:0;
+  border:1px solid #ff6334;
+  display:inline-block;
+  color:#ff6334;
+  font-family: raleway;
+  font-size:14px;
+  font-weight: normal;;
+  font-style:normal;
+  height:36px;
+  line-height:1.5em;
+  width:175px;
+  text-decoration:none;
+  text-align:center;
+  padding-top: 5px;
+}
+
+.btn_style:hover{
+  background-color: #ff6334;
+  color: #fff;
+}
+.btn_style::after{
+  background-color: #ff6334;
+  color: #fff;
+}
+
+.highlight-text{
+  position: relative;
+  left: 10%;
+  right: 10%;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ff6334;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: raleway;
+  text-align: center;
+}
+
+@media (max-width: 768px){
+  .highlight-text{
+    font-size: 20px;
+  }
+  }
+
+
+/* ..........................Content End   ............................... */

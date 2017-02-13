@@ -29,6 +29,11 @@
   color: #fff;
   padding-top: 100px;
 }
+@media (max-width: 480px){
+  .banner-head{
+    margin-top: 20px;
+  }
+}
 
 .banner-content{
   float: left;
@@ -281,7 +286,7 @@ p{
 
 .design-process{
   margin-top: 40px;
-  margin-bottom: 20px;
+  padding-bottom: 30px;
   float: left;
   clear: both;
   width: 100%;
@@ -300,6 +305,142 @@ p{
   margin-bottom: 20px;
 }
 
-
-
 /*  ..........................Process End   ...........................*/
+
+
+/*  ..........................Footer Start   ...........................*/
+
+.connect{
+  float: left;
+  clear: both;
+  width: 100%;
+  background-color: #FFDE5C;
+}
+
+.footer-main-heading{
+  float: left;
+  width: 200px;
+  font-size: 40px;
+  line-height: 1.5em;
+  font-family: georgia;
+  color:#3B4854;
+  margin-top: 30px;
+}
+
+@media (max-width: 480px){
+  .footer-main-heading{
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.curve{
+  float: left;
+  width: 200px;
+  margin-top: 20px;
+  position: relative;
+  left: 5px;
+}
+@media (max-width: 480px){
+  .curve{
+    float: left;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+}
+
+.action-heading{
+  float: left;
+  clear: both;
+  font-size: 40px;
+  font-family: raleway;
+  font-weight: 300;
+  color: #ff6334;
+}
+@media (max-width: 768px){
+    .action-heading{
+    font-size: 24px;
+  }
+}
+
+.footer-logo{
+  float: left;
+  clear: both;
+  width: 70px;
+  margin-top: 40px;
+}
+
+.company-heading{
+  float: left;
+  font-size: 30px;
+  line-height: 1.5em;
+  font-family: georgia;
+  color:#3B4854;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+@media (max-width: 768px){
+  .company-heading{
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: 40px;
+    width: 60%;
+  }
+}
+.company-content{
+  float: left;
+  clear: both;
+  margin-top: 10px;
+}
+
+.foot-btn_style{
+  float: left;
+  clear: both;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  background-color:#ff6334;
+  text-indent:0;
+  border:1px solid #ffffff;
+  display:inline-block;
+  color:#ffffff;
+  font-family: raleway;
+  font-size:14px;
+  font-weight: normal;;
+  font-style:normal;
+  height:36px;
+  line-height:1.5em;
+  width:230px;
+  text-decoration:none;
+  text-align:left;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.foot-btn_style:hover{
+  -webkit-box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.4);
+  box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.4);
+}
+
+.arrow{
+  width: 32px;
+  height: 17px;
+  margin-left: 10px;
+}
+
+.copyright{
+  float: left;
+  background-color:#3B4854;
+  width: 100%;
+  height: 60px;
+  font-size: 10 px;
+  font-family: raleway;
+  color: #fff;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+/*  ..........................Footer end   ...........................*/

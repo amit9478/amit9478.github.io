@@ -1,0 +1,23 @@
+<svg id="journey_broken" data-name="journey broken" xmlns="http://www.w3.org/2000/svg" width="674" height="52" viewBox="0 0 674 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #636363;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ffd11a;
+      }
+    </style>
+  </defs>
+  <path id="Shape_13_copy" data-name="Shape 13 copy" class="cls-1" d="M424,38V36H624v2H424Z"/>
+  <path id="Shape_13_copy_2" data-name="Shape 13 copy 2" class="cls-1" d="M0,18V16H280v2H0Z"/>
+  <path class="cls-2" d="M0,0H114V32H0V0ZM140,0H254V32H140V0ZM280,0H394V32H280V0Z"/>
+  <path class="cls-2" d="M420,20H534V52H420V20Zm140,0H674V52H560V20Z"/>
+  <path class="cls-1" d="M139,11.5a5.5,5.5,0,1,1-5.5,5.5A5.5,5.5,0,0,1,139,11.5Zm140,0a5.5,5.5,0,1,1-5.5,5.5A5.5,5.5,0,0,1,279,11.5Z"/>
+  <path class="cls-1" d="M419,31.5a5.5,5.5,0,1,1-5.5,5.5A5.5,5.5,0,0,1,419,31.5Zm140,0a5.5,5.5,0,1,1-5.5,5.5A5.5,5.5,0,0,1,559,31.5Z"/>
+</svg>

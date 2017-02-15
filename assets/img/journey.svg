@@ -1,0 +1,20 @@
+<svg id="journey" xmlns="http://www.w3.org/2000/svg" width="674" height="32" viewBox="0 0 674 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #636363;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ffd11a;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M0,18V16H673v2H0Z"/>
+  <path class="cls-2" d="M0,0H114V32H0V0ZM140,0H254V32H140V0ZM280,0H394V32H280V0ZM420,0H534V32H420V0ZM560,0H674V32H560V0Z"/>
+  <path class="cls-1" d="M139,11.5a5.5,5.5,0,1,1-5.5,5.5A5.5,5.5,0,0,1,139,11.5Zm140,0a5.5,5.5,0,1,1-5.5,5.5A5.5,5.5,0,0,1,279,11.5Zm140,0a5.5,5.5,0,1,1-5.5,5.5A5.5,5.5,0,0,1,419,11.5Zm140,0a5.5,5.5,0,1,1-5.5,5.5A5.5,5.5,0,0,1,559,11.5Z"/>
+</svg>

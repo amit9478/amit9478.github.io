@@ -159,6 +159,13 @@ h1{
   color: #000;
 }
 
+h2{
+  font-size: 20px;
+  font-family: raleway;
+  font-weight: normal;
+  color: #FF6334;
+}
+
 p{
   font-size: 18px;
   line-height: 2em;
@@ -437,10 +444,97 @@ p{
   height: 60px;
   font-size: 10 px;
   font-family: raleway;
-  color: #fff;
+  color: #B0B0B0;
   padding-top: 10px;
   padding-left: 10px;
 }
 
 
 /*  ..........................Footer end   ...........................*/
+
+
+
+
+
+
+/*  ..........................Case Study 1 start  ...........................*/
+
+.divider{
+  width: 100%;
+  height:1px;
+  background-color: #000;
+  opacity: .2;
+  float: left;
+}
+
+.casestudy1-banner{
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 420px;
+  background: #fff;
+  margin-top: 80px;
+}
+
+.inner-banner-head{
+  float: left;
+  width: 100%;
+  font-family: raleway;
+  font-size: 30px;
+  color: #000;
+  line-height: 1.5em;
+  margin-top: 30px;
+}
+
+.banner-image{
+  width: 80%;
+  margin-top: 20px;
+}
+
+.section-first{
+  float: left;
+  clear: both;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.section{
+  float: left;
+  clear: both;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.section-last{
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    margin-bottom:60px;
+}
+
+.section-image{
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-image-work{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.small-head{
+  margin-bottom: -20px;
+}
+
+.section-bg{
+  float: left;
+  clear: both;
+  background-color: #F5F5F5;
+  width: 100%;
+}
+
+
+/*  ..........................Case Study 1 end  ...........................*/

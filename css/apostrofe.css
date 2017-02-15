@@ -457,7 +457,7 @@ p{
 
 
 
-/*  ..........................Case Study 1 start  ...........................*/
+/*  ..........................Case Study start  ...........................*/
 
 .divider{
   width: 100%;
@@ -465,15 +465,29 @@ p{
   background-color: #000;
   opacity: .2;
   float: left;
+  clear: both;
+  display: block;
+}
+@media (max-width: 480px){
+  .divider{
+    display:none;
+  }
 }
 
 .casestudy1-banner{
   float: left;
   clear: both;
   width: 100%;
-  height: 420px;
+  height: auto;
   background: #fff;
   margin-top: 80px;
+  overflow: hidden;
+}
+
+@media (max-width: 480px){
+  .casestudy1-banner{
+    margin-top: 40px;
+  }
 }
 
 .inner-banner-head{
@@ -486,9 +500,28 @@ p{
   margin-top: 30px;
 }
 
+@media (max-width: 480px){
+  .inner-banner-head{
+    margin-top: 10px;
+    font-size: 20px;
+  }
+}
+
 .banner-image{
+  position: relative;
+  bottom: 0;
+  clear: both;
   width: 80%;
-  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+}
+
+@media (max-width: 480px){
+  .banner-image{
+    width: 100%;
+  }
 }
 
 .section-first{
@@ -514,9 +547,17 @@ p{
 }
 
 .section-image{
-  width: 60%;
-  margin-top: 20px;
+  width: 50%;
+  margin-top: 60px;
   margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 480px){
+  .section-image{
+    width: 80%;
+  }
 }
 
 .section-image-work{
@@ -537,4 +578,92 @@ p{
 }
 
 
-/*  ..........................Case Study 1 end  ...........................*/
+/*  ..........................Case Study end  ...........................*/
+
+
+/*  ..........................Work page start  ...........................*/
+
+
+.work-divider{
+  width: 100%;
+  height:1px;
+  background-color: #000;
+  opacity: .2;
+  float: left;
+  clear: both;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.work-one{
+  float: left;
+  clear: both;
+  margin-top: 100px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-one-image{
+  float: left;
+  clear: both;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+@media (max-width: 480px){
+  .work-one-image{
+    width: 100%;
+  }
+}
+
+.work-btn_style{
+  float: left;
+  clear: both;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  background-color:#ff6334;
+  text-indent:0;
+  border:1px solid #ffffff;
+  display:inline-block;
+  color:#ffffff;
+  font-family: raleway;
+  font-size:14px;
+  font-weight: normal;;
+  font-style:normal;
+  height:36px;
+  line-height:1.5em;
+  width:200px;
+  text-decoration:none;
+  text-align:left;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.work-btn_style:hover{
+  -webkit-box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.4);
+  box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.4);
+}
+
+.work-arrow{
+  width: 32px;
+  height: 17px;
+  margin-left: 10px;
+}
+
+.work-two{
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+/*  ..........................Work page end  ...........................*/

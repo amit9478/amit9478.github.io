@@ -776,19 +776,30 @@ p
 
     width: 100%;
     margin-top: 100px;
-    margin-right: auto;
-    margin-left: auto;
+}
+@media (max-width: 480px){
+  .work-one
+  {
+      width: 100%;
+      margin-top: 80px;
+  }
+}
+
+.image-center
+{
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .work-one-image
 {
-    float: left;
-    clear: both;
-
-    width: 80%;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 60%;
 }
 @media (max-width: 480px)
 {
@@ -852,3 +863,91 @@ p
 
 
 /*  ..........................Work page end  ...........................*/
+
+
+/*  ..........................process page end  ...........................*/
+
+.process-banner
+{
+    float: left;
+    clear: both;
+    overflow: hidden;
+
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    background: #fff;
+}
+
+@media (max-width: 480px)
+{
+    .process-banner
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+.process-banner-image
+{
+    position: relative;
+
+    display: block;
+    clear: both;
+
+    width: 80%;
+    margin-top: 140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 480px)
+{
+.process-banner-image
+    {
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+
+.process-heading{
+  font-size: 24px;
+  font-family: raleway;
+  text-align: center;
+  font-weight:500;
+  margin-top: 40px;
+  line-height: 2em;
+  color: #777;
+}
+
+.learn{
+  float: left;
+  height: auto;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.learn-image{
+  width: 60px;
+  height: auto;
+}
+
+.learn{
+  float: left;
+  height: auto;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.empty-space{
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 30px;
+}
+
+/*  ..........................process page end  ...........................*/

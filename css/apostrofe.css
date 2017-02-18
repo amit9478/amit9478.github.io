@@ -1,6 +1,20 @@
 
 /* ..........................Banner Start ............................... */
 
+html {
+    overflow-y: scroll;
+}
+
+.cd-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y:hidden;
+  width: 100%; // your value
+}
+
+
 .container
 {
     max-width: 1200px;

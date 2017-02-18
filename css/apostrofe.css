@@ -226,7 +226,7 @@ p
     font-family: raleway;
     font-size: 18px;
     font-weight: normal;
-    line-height: 2em;
+    line-height: 1.5em;
 
     color: #363636;
 }
@@ -404,7 +404,7 @@ p
 /*  ..........................Process End   ...........................*/
 
 
-/*  ..........................Footer Start   ...........................*/
+/*  ..........................Connect Start   ...........................*/
 
 .connect
 {
@@ -424,8 +424,9 @@ p
 
     float: left;
 
-    width: 200px;
+    width: 100%;
     margin-top: 30px;
+    text-align: center;
 
     color: #3b4854;
 }
@@ -437,37 +438,128 @@ p
         float: left;
 
         width: 100%;
+        font-size: 30px;
 
         text-align: center;
     }
 }
 
-.curve
-{
-    position: relative;
-    left: 5px;
-
-    float: left;
-
-    width: 200px;
-    margin-top: 20px;
+.start-project{
+  float: left;
+  clear: both;
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
-@media (max-width: 480px)
-{
-    .curve
-    {
-        float: left;
+@media (max-width: 480px){
+  .start-project{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
 
-        width: 100%;
-        margin-top: 20px;
-        padding: 20px;
-    }
+.btn-start{
+  font-family: raleway;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5em;
+
+  display: inline-block;
+
+  width: 200px;
+  height: 36px;
+  margin-top: 20px;
+  padding-top: 6px;
+
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0;
+
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #ff6334;
+}
+.btn-start:hover
+{
+    color: #ff6334;
+    background-color: #fff;
+    border: 1px solid #ff6334;
+}
+.btn-start::after
+{
+  color: #ff6334;
+  background-color: #fff;
+  border: 1px solid #ff6334;
+}
+
+
+.help-text{
+  width: 200px;
+  font-size: 12px;
+  font-family: raleway;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  color: #3B4854;
+}
+@media (max-width: 480px){
+  .help-text{
+    width: 100%;
+  }
+}
+
+.ver-div{
+  float: left;
+  color: #333;
+  opacity: 0.6  ;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+@media (max-width: 480px){
+  .ver-div{
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+.mail{
+  float: right;
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+@media (max-width: 480px){
+  .mail{
+    width: 100%;
+  }
+}
+
+.curve{
+  float: right;
+  position: relative;
+  right: 40%;
+  width: 40%;
+}
+@media (max-width: 480px){
+  .curve{
+    float: right;
+    position: relative;
+    right: 20%;
+    width: 50%;
+    text-align: center;
+  }
 }
 
 .action-heading
 {
     font-family: raleway;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
 
     float: left;
@@ -475,101 +567,96 @@ p
 
     color: #ff6334;
 }
-@media (max-width: 768px)
+@media (max-width: 1024px)
 {
     .action-heading
     {
         font-size: 24px;
+        width: 100%;
+        text-align: center;
     }
+}
+
+
+/*  ..........................Connect End   ...........................*/
+
+/*  ..........................Footer Start   ...........................*/
+
+.footer{
+  float: left;
+  width: 100%;
+  background-color: #3B4854;
+  padding-top: 20px;
+}
+
+.footer-nav{
+  width: 100%;
+  height: 30px;
+}
+
+.center-link{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+@media (max-width: 1024px){
+  .center-link{
+    width: 70%;
+  }
+}
+@media (max-width: 768px){
+  .center-link{
+    width: 80%;
+    line-height: 3em;
+  }
+}
+@media (max-width: 480px){
+  .center-link{
+    width: 50%;
+    line-height: 3em;
+    text-align: center;
+  }
+}
+
+.footer-nav ul li{
+  float: left;
+  list-style-type: none;
+  width: 100px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: raleway;
+  color: #fff;
+}
+.footer-nav ul li a:hover{
+  text-decoration: none;
+  color: #FF6334;
+}
+
+.footer-nav ul li a:active{
+  text-decoration: none;
+  color: #FF6334;
+}
+
+
+.footer-logo-container{
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-logo
 {
-    float: left;
-    clear: both;
-
-    width: 70px;
-    margin-top: 40px;
-}
-
-.company-heading
-{
-    font-family: georgia;
-    font-size: 30px;
-    line-height: 1.5em;
-
-    float: left;
-
-    margin-top: 30px;
-    margin-left: 20px;
-
-    color: #3b4854;
-}
-@media (max-width: 768px)
-{
-    .company-heading
-    {
-        font-size: 20px;
-
-        width: 60%;
-        margin-top: 40px;
-        margin-left: 0;
-    }
-}
-.company-content
-{
-    float: left;
-    clear: both;
-
-    margin-top: 10px;
-}
-
-.foot-btn_style
-{
-    font-family: raleway;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.5em;
-
-    display: inline-block;
-    float: left;
-    clear: both;
-
-    width: 230px;
-    height: 36px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    padding-top: 5px;
-    padding-left: 20px;
-
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0;
-
-    color: #fff;
-    border: 1px solid #fff;
-    background-color: #ff6334;
-;
-}
-.foot-btn_style:hover
-{
-    -webkit-box-shadow: 10px 0 10px 0 rgba(0,0,0,.4);
-       -moz-box-shadow: 10px 0 10px 0 rgba(0,0,0,.4);
-            box-shadow: 10px 0 10px 0 rgba(0,0,0,.4);
-}
-
-.arrow
-{
-    width: 32px;
-    height: 17px;
-    margin-left: 10px;
+    width: 280px;
 }
 
 .copyright
 {
     font-family: raleway;
-    font-size: 10 px;
+    font-size: 22 px;
 
     float: left;
 
@@ -582,13 +669,12 @@ p
     background-color: #3b4854;
 }
 
+.copyright-image{
+  width: 18px;
+  height: 18px;
+}
 
-/*  ..........................Footer end   ...........................*/
-
-
-
-
-
+/*  ..........................Footer End   ...........................*/
 
 /*  ..........................Case Study start  ...........................*/
 
@@ -918,7 +1004,7 @@ p
   text-align: center;
   font-weight:500;
   margin-top: 40px;
-  line-height: 2em;
+  line-height: 1.5em;
   color: #777;
 }
 

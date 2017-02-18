@@ -1,6 +1,10 @@
 
 /* ..........................Banner Start ............................... */
 
+@font-face {
+  font-family: 'raleway';
+  src: url('assets/fonts/raleway.ttf');
+
 .container
 {
     max-width: 1200px;
@@ -54,7 +58,7 @@
 
 .banner-content
 {
-    font-family: raleway;
+    font-family: 'raleway';
     src: url('assets/fonts/raleway.ttf');
     font-size: 36px;
     font-weight: lighter;

@@ -690,13 +690,7 @@ p
     opacity: .2;
     background-color: #000;
 }
-@media (max-width: 480px)
-{
-    .divider
-    {
-        display: none;
-    }
-}
+
 
 .casestudy1-banner
 {
@@ -953,38 +947,15 @@ p
 
 /*  ..........................process page end  ...........................*/
 
-.process-banner
-{
-    float: left;
-    clear: both;
-    overflow: hidden;
-
-    width: 100%;
-    height: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
-
-    background: #fff;
-}
-
-@media (max-width: 480px)
-{
-    .process-banner
-    {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-}
 
 .process-banner-image
 {
-    position: relative;
-
     display: block;
     clear: both;
 
-    width: 80%;
-    margin-top: 140px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -993,9 +964,24 @@ p
 {
 .process-banner-image
     {
-        width: 100%;
-        margin-top: 100px;
+        display: none;
     }
+}
+
+.process-banner-image-mobile{
+    display: none;
+}
+
+@media (max-width: 480px){
+  .process-banner-image-mobile{
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: auto;
+        margin-left: auto;
+
+      }
 }
 
 .process-heading{

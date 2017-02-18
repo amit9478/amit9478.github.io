@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 480 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,0,-926)">
+        <g id="about.-banner.-mobile" transform="matrix(0.456784,0,0,0.518919,-2557.99,1515.25)">
+            <rect x="5600" y="-1135.54" width="1050.82" height="925" style="fill:none;"/>
+            <g transform="matrix(2.18922,0,0,1.92708,5160.86,-1251.06)">
+                <g>
+                    <text x="200.591px" y="176.082px" style="font-family:'Raleway-Light', 'Raleway', sans-serif;font-weight:300;font-size:60px;fill:rgb(255,99,52);">Do-er<tspan x="359.771px " y="176.082px ">s</tspan></text>
+                    <text x="200.591px" y="256.082px" style="font-family:'Raleway-Light', 'Raleway', sans-serif;font-weight:300;font-size:60px;fill:rgb(255,99,52);">S<tspan x="236.651px 255.731px 275.591px 307.511px 326.591px " y="256.082px 256.082px 256.082px 256.082px 256.082px ">trate</tspan>gists</text>
+                    <text x="200.591px" y="336.082px" style="font-family:'Raleway-Light', 'Raleway', sans-serif;font-weight:300;font-size:60px;fill:rgb(255,99,52);">Crea<tspan x="329.651px 348.731px " y="336.082px 336.082px ">ti</tspan>ves</text>
+                </g>
+            </g>
+            <g transform="matrix(1.39116,0,0,0.979422,-2365.76,26.4971)">
+                <g transform="matrix(1.05082,0,0,1.31386,4898.75,-2352.18)">
+                    <path d="M1447.72,1024.84C1447.72,1024.84 1455.39,1016.84 1463.39,1024.51L1473.39,1537.51C1473.39,1537.51 1463.72,1546.51 1451.72,1539.17L1447.72,1024.84Z" style="fill:rgb(51,51,51);"/>
+                </g>
+                <g transform="matrix(1.05082,0,0,1.31386,4898.75,-2352.18)">
+                    <path d="M1446.12,1050.77L1445.72,1036.77C1445.72,1036.77 1436.72,1027.37 1415.52,1013.57C1394.32,999.774 1362.72,995.974 1349.72,995.774C1349.72,995.774 1394.19,1005.64 1415.32,1026.77" style="fill:none;stroke:rgb(255,99,52);stroke-width:1.5px;"/>
+                </g>
+                <g transform="matrix(1.05082,0,0,1.31386,4898.75,-2352.18)">
+                    <path d="M1415.32,1026.77C1436.12,1047.57 1441.92,1064.77 1445.32,1079.37L1445.32,1095.97" style="fill:none;stroke:rgb(255,99,52);stroke-width:1.5px;"/>
+                </g>
+                <g transform="matrix(1.05082,0,0,1.31386,4920.82,-2353.49)">
+                    <path d="M1331.12,996.574L1332.12,1002.77L1308.52,1015.37L1302.32,1010.77L1272.12,1010.97L1280.52,1001.37L1331.12,996.574Z" style="fill:rgb(255,99,52);"/>
+                </g>
+                <g transform="matrix(1.05082,0,0,1.31386,4920.82,-2353.49)">
+                    <path d="M1272.12,1012.57L1302.12,1012.57L1307.32,1016.97L1386.12,1352.37L1363.32,1354.37L1362.52,1360.97L1347.32,1361.57L1346.12,1375.37L1329.12,1368.97L1329.72,1354.17L1320.32,1354.17L1320.12,1330.57L1304.52,1324.97L1304.52,1309.17L1291.92,1304.17L1287.92,1329.97L1266.52,1329.37L1270.32,1303.77L1261.52,1306.37L1246.92,1304.17L1244.52,1316.37L1241.32,1316.77L1236.12,1336.37L1217.32,1335.37L1218.12,1326.57L1201.92,1330.57L1202.12,1318.37L1190.32,1316.37L1190.92,1308.57L1184.32,1308.77L1188.1,1308.66L1272.12,1012.57" style="fill:rgb(255,222,92);"/>
+                </g>
+                <g transform="matrix(1.05082,0,0,1.31386,4920.82,-2353.49)">
+                    <path d="M1266.12,1331.91L1265.92,1337.71L1288.72,1337.71L1288.92,1331.51L1266.12,1331.91Z" style="fill:rgb(255,209,26);"/>
+                </g>
+                <g transform="matrix(1.05082,0,0,1.31386,4920.82,-2353.49)">
+                    <path d="M1265.92,1334.61L1258.32,1334.61L1258.72,1341.31L1277.42,1350.91L1268.92,1489.51" style="fill:none;stroke:rgb(59,72,84);stroke-width:1.5px;"/>
+                </g>
+                <g transform="matrix(1.05082,0,0,1.31386,4920.82,-2353.49)">
+                    <path d="M1239.32,1508.48L1237.07,1543.11L1238.95,1544.86L1246.32,1544.73L1253.45,1543.61L1251.95,1537.98L1250.57,1535.36C1250.57,1535.36 1251.7,1522.23 1252.7,1512.36C1253.7,1502.48 1253.82,1489.51 1253.82,1489.51L1260.07,1461.48C1260.07,1461.48 1263.3,1465.73 1267.87,1466.11C1272.45,1466.48 1277.95,1463.11 1275.32,1458.48C1272.7,1453.86 1267.9,1449.86 1265.92,1443.73C1263.95,1437.61 1263.77,1430.48 1265.92,1425.61C1268.07,1420.73 1268.07,1412.48 1263.45,1409.23C1263.45,1409.23 1260.82,1408.23 1262.32,1404.61C1262.32,1404.61 1267.4,1402.11 1265.92,1398.11C1264.45,1394.11 1266.2,1398.98 1266.2,1398.98L1272.12,1396.61L1273.7,1398.36L1277.42,1398.23L1277.42,1388.48L1270.82,1389.86L1267.87,1392.23L1265.92,1391.36L1265.92,1387.98C1265.92,1387.98 1271.92,1383.73 1267.87,1379.48C1263.82,1375.23 1252.07,1375.86 1249.2,1381.11C1246.32,1386.36 1246.82,1394.73 1250.32,1397.48C1250.32,1397.48 1236.2,1398.98 1233.45,1413.61C1230.7,1428.23 1226.57,1456.11 1226.82,1467.11C1227.07,1478.11 1229.57,1491.36 1227.32,1504.98C1225.07,1518.61 1225.7,1517.98 1225.7,1517.98L1221.57,1536.73C1221.57,1536.73 1218.2,1536.98 1218.07,1540.36C1217.95,1543.73 1221.07,1545.36 1221.07,1545.36L1231.82,1545.36L1237.7,1509.86L1239.32,1508.48" style="fill:rgb(51,51,51);"/>
+                </g>
+                <g opacity="0.2">
+                    <g transform="matrix(1.57366,-0,-0,1.96757,5725.96,-1186.45)">
+                        <use xlink:href="#_Image1" x="289.265" y="433.988" width="52.118px" height="8.007px" transform="matrix(0.983353,0,0,0.889657,0,0)"/>
+                    </g>
+                </g>
+            </g>
+            <g transform="matrix(2.18922,0,0,1.92708,5160.86,-1328.14)">
+                <text x="200.591px" y="154.182px" style="font-family:'Raleway-Thin', 'Raleway', sans-serif;font-weight:100;font-size:30px;fill:rgb(51,51,51);">w<tspan x="223.841px " y="154.182px ">e</tspan> ar<tspan x="273.821px " y="154.182px ">e</tspan></text>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="53px" height="9px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAAJCAYAAACSXmSmAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABj0lEQVQ4jcVVu44iQQys8jDcBgRkm903gPj/bxi+4bLNCAj2GLrqEjw7GJZ9SKuz1KpSq9tlux8mvmHb7ZYR0dvuI2JhOyRF13VhmwDmGAAIIAAIgEkKgEg6sbWmiBBJSTqTHCWNwzD4q/HxQeALkiuSTySXkvrEiOglISKQCACS0HUd7Lc45nwSJa94a+3Kx9yvpDEiRtunRNuvto/DMJwfJrXZbH6RXEXEiuQKwFNrDSSnIO4ITpjJ5ABwk2BNJHmOTO49nSySbXRdBwCvto+SjraP+/3+LwBwt9v1JH+TXI/jCJKTgxSqoiQnoRSpvJrtqxNKkzT5rzx91qLNiyUJttH3PWwfbP8JAM8A1veOsVY+5+qaeRUvFbzxUXnaPMBMou5/FE+xNYDnAPAC4HBvxfxqzOfqGkkTz2tVfVSeljcBeDu1uv9RPMUOAF4+/aY+uvM//aaq/4dv6r2Uy+/XS1om/off72R7wk//fl+xS59a2F6WPsVLX7rpVxetqS8VVGvNpU+dJJ2/06f+AaaDzrm/HrpLAAAAAElFTkSuQmCC"/>
+    </defs>
+</svg>

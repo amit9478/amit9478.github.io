@@ -55,7 +55,6 @@
 .banner-content
 {
     font-family: raleway;
-    src: url('assets/fonts/raleway.ttf');
     font-size: 36px;
     font-weight: lighter;
     line-height: 1.5em;
@@ -82,7 +81,6 @@
 .button-banner01
 {
     font-family: raleway;
-    src: url('assets/fonts/raleway.ttf');
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -118,7 +116,6 @@
 .button-banner02
 {
     font-family: raleway;
-    src: url('assets/fonts/raleway.ttf');
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -218,7 +215,6 @@ h1
 h2
 {
     font-family: raleway;
-    src: url('assets/fonts/raleway.ttf');
     font-size: 20px;
     font-weight: normal;
 
@@ -228,7 +224,6 @@ h2
 p
 {
     font-family: raleway;
-    src: url('assets/fonts/raleway.ttf');
     font-size: 18px;
     font-weight: normal;
     line-height: 1.5em;
@@ -312,7 +307,6 @@ p
 .btn_style
 {
     font-family: raleway;
-    src: url('assets/fonts/raleway.ttf');
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -353,7 +347,6 @@ p
 .highlight-text
 {
     font-family: raleway;
-    src: url('assets/fonts/raleway.ttf');
     font-size: 30px;
     font-weight: normal;
 
@@ -470,7 +463,6 @@ p
 
 .btn-start{
   font-family: raleway;
-  src: url('assets/fonts/raleway.ttf');
   font-size: 14px;
   font-weight: normal;
   line-height: 1.5em;
@@ -508,7 +500,6 @@ p
   width: 200px;
   font-size: 12px;
   font-family: raleway;
-  src: url('assets/fonts/raleway.ttf');
   font-weight: bold;
   margin-top: 10px;
   text-align: center;
@@ -568,7 +559,6 @@ p
 .action-heading
 {
     font-family: raleway;
-    src: url('assets/fonts/raleway.ttf');
     font-size: 30px;
     font-weight: 300;
 
@@ -636,7 +626,6 @@ p
   text-decoration: none;
   font-size: 14px;
   font-family: raleway;
-  src: url('assets/fonts/raleway.ttf');
   color: #fff;
 }
 .footer-nav ul li a:hover{
@@ -667,7 +656,6 @@ p
 .copyright
 {
     font-family: raleway;
-    src: url('assets/fonts/raleway.ttf');
     font-size: 22 px;
 
     float: left;
@@ -910,7 +898,6 @@ p
 .work-btn_style
 {
     font-family: raleway;
-    src: url('assets/fonts/raleway.ttf');
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -1014,7 +1001,6 @@ p
 .process-heading{
   font-size: 24px;
   font-family: raleway;
-  src: url('assets/fonts/raleway.ttf');
   text-align: center;
   font-weight:500;
   margin-top: 40px;
@@ -1119,7 +1105,6 @@ p
   clear: both;
   width: 100%;
   font-family: raleway;
-  src: url('assets/fonts/raleway.ttf');
 }
 
 

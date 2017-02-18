@@ -226,7 +226,7 @@ p
     font-family: raleway;
     font-size: 18px;
     font-weight: normal;
-    line-height: 2em;
+    line-height: 1.5em;
 
     color: #363636;
 }
@@ -1004,7 +1004,7 @@ p
   text-align: center;
   font-weight:500;
   margin-top: 40px;
-  line-height: 2em;
+  line-height: 1.5em;
   color: #777;
 }
 

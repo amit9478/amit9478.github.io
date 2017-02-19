@@ -5,6 +5,112 @@ html {
     overflow-y: scroll;
 }
 
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayextrabold';
+    src: url('../fonts/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/font/raleway-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayextralight';
+    src: url('../fonts/font/raleway-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/font/raleway-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayheavy';
+    src: url('../fonts/font/raleway-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/font/raleway-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('../fonts/font/raleway-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('../fonts/font/raleway-medium-webfont.woff2') format('woff2'),
+         url('../fonts/font/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('../fonts/raleway-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('../fonts/raleway-thin-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .cd-header{
   position: fixed;
   top: 0;
@@ -47,7 +153,7 @@ html {
 
 .banner-head
 {
-    font-family: georgia;
+    font-family: 'georgia';
     font-size: 50px;
     font-weight: 200;
     line-height: 75px;
@@ -68,9 +174,8 @@ html {
 
 .banner-content
 {
-    font-family: raleway;
+    font-family: 'ralewaylight';
     font-size: 36px;
-    font-weight: lighter;
     line-height: 1.5em;
 
     float: left;
@@ -94,10 +199,8 @@ html {
 
 .button-banner01
 {
-    font-family: raleway;
+    font-family: 'ralewayregular';
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
     line-height: 1.5em;
 
     display: inline-block;
@@ -129,10 +232,8 @@ html {
 
 .button-banner02
 {
-    font-family: raleway;
+    font-family: 'ralewayregular';;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
     line-height: 1.5em;
 
     display: inline-block;
@@ -218,7 +319,7 @@ html {
 
 h1
 {
-    font-family: georgia;
+    font-family: 'georgia';
     font-size: 30px;
     font-weight: normal;
     line-height: 1.5em;
@@ -228,18 +329,16 @@ h1
 
 h2
 {
-    font-family: raleway;
+    font-family: 'ralewayregular';
     font-size: 20px;
-    font-weight: normal;
 
     color: #ff6334;
 }
 
 p
 {
-    font-family: raleway;
+    font-family: 'ralewayregular';
     font-size: 16px;
-    font-weight: normal;
     line-height: 1.5em;
 
     color: #363636;
@@ -320,10 +419,8 @@ p
 
 .btn_style
 {
-    font-family: raleway;
+    font-family: 'ralewayregular';
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
     line-height: 1.5em;
 
     display: inline-block;
@@ -360,9 +457,8 @@ p
 
 .highlight-text
 {
-    font-family: raleway;
+    font-family: 'ralewayregular';
     font-size: 30px;
-    font-weight: normal;
 
     position: relative;
     right: 10%;
@@ -432,7 +528,7 @@ p
 
 .footer-main-heading
 {
-    font-family: georgia;
+    font-family: 'georgia';
     font-size: 40px;
     line-height: 1.5em;
 
@@ -476,9 +572,8 @@ p
 }
 
 .btn-start{
-  font-family: raleway;
+    font-family: 'ralewayregular';
   font-size: 14px;
-  font-weight: normal;
   line-height: 1.5em;
 
   display: inline-block;
@@ -513,8 +608,7 @@ p
 .help-text{
   width: 200px;
   font-size: 12px;
-  font-family: raleway;
-  font-weight: bold;
+  font-family: 'ralewaybold';
   margin-top: 10px;
   text-align: center;
   color: #3B4854;
@@ -572,9 +666,8 @@ p
 
 .action-heading
 {
-    font-family: raleway;
+    font-family: 'ralewayregular';
     font-size: 30px;
-    font-weight: 300;
 
     float: left;
     clear: both;
@@ -639,7 +732,7 @@ p
   width: 100px;
   text-decoration: none;
   font-size: 14px;
-  font-family: raleway;
+    font-family: 'ralewayregular';
   color: #fff;
 }
 .footer-nav ul li a:hover{
@@ -669,7 +762,7 @@ p
 
 .copyright
 {
-    font-family: raleway;
+    font-family: 'ralewayregular';
     font-size: 22 px;
 
     float: left;
@@ -729,7 +822,7 @@ p
 
 .inner-banner-head
 {
-    font-family: georgia;
+    font-family: 'georgia';
     font-size: 30px;
     line-height: 1.5em;
 
@@ -905,10 +998,8 @@ p
 
 .work-btn_style
 {
-    font-family: raleway;
+    font-family: 'ralewayregular';
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
     line-height: 1.5em;
 
     display: inline-block;
@@ -998,9 +1089,8 @@ p
 
 .process-heading{
   font-size: 24px;
-  font-family: raleway;
+    font-family: 'ralewaybold';
   text-align: center;
-  font-weight:500;
   margin-top: 40px;
   line-height: 1.5em;
   color: #777;
@@ -1055,7 +1145,7 @@ p
 .about-banner-head{
   float: left;
   margin-top: 30px;
-  font-family: georgia;
+  font-family: 'georgia';
   font-size: 30px;
   line-height: 1.5em;
   color: #000;
@@ -1088,7 +1178,7 @@ p
   text-align: center;
   width: 100%;
   font-size: 30px;
-  font-family: georgia;
+  font-family: 'georgia';
 }
 
 .team-member{
@@ -1096,13 +1186,13 @@ p
   clear: both;
   width: 100%;
   font-size: 30px;
-  font-family: georgia;
+  font-family: 'georgia';
 }
 
 .team-member-description{
   clear: both;
   width: 100%;
-  font-family: raleway;
+    font-family: 'ralewayregular';
 }
 
 

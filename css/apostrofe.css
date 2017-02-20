@@ -176,7 +176,7 @@ html {
 {
     font-family: 'ralewaylight';
     font-size: 36px;
-    line-height: 1.5em;
+    line-height: 1.7em;
 
     float: left;
 
@@ -201,7 +201,7 @@ html {
 {
     font-family: 'ralewayregular';
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 1.7em;
 
     display: inline-block;
 
@@ -234,7 +234,7 @@ html {
 {
     font-family: 'ralewayregular';;
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 1.7em;
 
     display: inline-block;
 
@@ -277,14 +277,14 @@ html {
     .banner-head
     {
         font-size: 46px;
-        line-height: 1.5em;
+        line-height: 1.7em;
 
         padding-top: 40px;
     }
     .banner-content
     {
         font-size: 30px;
-        line-height: 1.5em;
+        line-height: 1.7em;
 
         margin-bottom: 0;
         padding-top: 20px;
@@ -323,7 +323,7 @@ h1
     font-family: 'georgia';
     font-size: 30px;
     font-weight: normal;
-    line-height: 1.5em;
+    line-height: 1.7em;
 
     color: #000;
 }
@@ -340,7 +340,7 @@ p
 {
     font-family: 'ralewayregular';
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.7em;
 
     color: #363636;
 }
@@ -422,7 +422,7 @@ p
 {
     font-family: 'ralewayregular';
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 1.7em;
 
     display: inline-block;
     float: right;
@@ -531,7 +531,7 @@ p
 {
     font-family: 'georgia';
     font-size: 40px;
-    line-height: 1.5em;
+    line-height: 1.7em;
 
     float: left;
 
@@ -575,7 +575,7 @@ p
 .btn-start{
     font-family: 'ralewayregular';
   font-size: 14px;
-  line-height: 1.5em;
+  line-height: 1.7em;
 
   display: inline-block;
 
@@ -782,6 +782,7 @@ p
 .copyright-image{
   width: 18px;
   height: 18px;
+  opacity: .5;
 }
 
 /*  ..........................Footer End   ...........................*/
@@ -799,6 +800,12 @@ p
 
     opacity: .2;
     background-color: #000;
+}
+
+@media (max-width: 480px){
+  .divider{
+    display: none;
+  }
 }
 
 
@@ -827,7 +834,7 @@ p
 {
     font-family: 'georgia';
     font-size: 30px;
-    line-height: 1.5em;
+    line-height: 1.7em;
 
     float: left;
 
@@ -1003,7 +1010,7 @@ p
 {
     font-family: 'ralewayregular';
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 1.7em;
 
     display: inline-block;
     float: left;
@@ -1095,7 +1102,7 @@ p
     font-family: 'ralewaymedium';
   text-align: center;
   margin-top: 40px;
-  line-height: 1.5em;
+  line-height: 1.7em;
   color: #777;
 }
 
@@ -1150,7 +1157,7 @@ p
   margin-top: 30px;
   font-family: 'georgia';
   font-size: 30px;
-  line-height: 1.5em;
+  line-height: 1.7em;
   color: #000;
 }
 @media (max-width: 480px){

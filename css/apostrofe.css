@@ -136,40 +136,42 @@ html {
     width: 100%;
     height: auto;
 
-    background: #ff7f58; /* Old browsers */
-    background:    -moz-linear-gradient(-45deg,  #ff7f58 0%, #ff6334 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg,  #ff7f58 0%,#ff6334 100%); /* Chrome10-25,Safari5.1-6 */
-    background:         linear-gradient(135deg,  #ff7f58 0%,#ff6334 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7f58', endColorstr='#ff6334',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background-color: #F6F6F6;
 }
 
 .banner-wrapper
 {
     width: 80%;
     height: auto;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .banner-head
 {
-    font-family: 'georgia';
-    font-size: 50px;
-    font-weight: 200;
-    line-height: 75px;
-
-    float: left;
-
-    padding-top: 100px;
-
-    color: #fff;
+    width: 80%;
+    background-color: #F6F6F6;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.banner-head-mobile{
+  display: none;
 }
 @media (max-width: 480px)
 {
     .banner-head
     {
         margin-top: 20px;
+        width: 100%;
+        margin-left: 0%;
+        display: none;
     }
+    .banner-head-mobile{
+      margin-top: 40px;
+      width: 100%;
+      display: block;
+    }
+
 }
 
 .banner-content
@@ -192,7 +194,7 @@ html {
     width: 100%;
     margin: auto;
     margin-top: 40px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 
     text-align: center;
 }
@@ -296,6 +298,7 @@ html {
         margin-top: 0;
 
         text-align: center;
+            margin-bottom: 30px;
     }
 
     .button-banner01
@@ -368,7 +371,7 @@ p
 {
     float: left;
 
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .ic-new-prdct
